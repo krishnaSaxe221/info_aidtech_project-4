@@ -1,0 +1,125 @@
+
+* {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.background{
+    width: 100vw;
+    height: 80vh;
+    background: url("../plugins/dine4.jpg") no-repeat center center ;
+}
+
+#main {
+    background-color: black;
+    padding: 20px 0;
+    opacity: 0.9;
+}
+
+#main ul {
+    display: flex;
+    /* right: 0; */
+
+}
+
+#main li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
+}
+
+a:hover {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: white;
+    display: flex;
+    background-color: #000000a3;
+    margin: 10px auto;
+    padding: 12px 13px 30px 480px;
+    position: absolute;
+    top: 70px;
+    padding-left: 12px;
+    padding-right: 30px;
+    justify-content: center;
+    text-align: center;
+    /*  border-radius: 10px; */
+    width: 30%;
+    left: 50%;
+    right: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    border-radius: 50px;
+
+
+    /*  box-shadow: 4px 3px rgb(26, 48, 61);
+    blur-radius: 10px 33px 12px; */
+
+}
+
+section h1 {
+    padding: 35px 120px;
+    font-size: 400%;
+    outline: 0px;
+    border: 0px;
+    vertical-align: middle;
+    background: space;
+    letter-spacing: 1px;
+    color: black;
+
+
+}
+.imgone{
+}
+
+section img {
+    width: 1537px;
+    
+}
+
+span img {
+    display: flex;
+    width: 350px;
+}
+
+section p {
+    width: 30%;
+    background-color: #000000c2;
+    /* background-color: black; */
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4fr 2fr);
+    grid-auto-flow: 2fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    top: 45%;
+    position: absolute;
+    padding: 0px 50px;
+margin: 50px;
+    left: 660px;
+    top: 30%;
+    
+}
+span img{
+    margin: 2%;
+    padding: 0px 20px;
+    left: 50px;
+}
+span img:hover{
+       transform: scale(1.2);
+       transition: all 0.5s ease;
+    
+    }
+    span h2{
+        width: 350px;
+        padding: 20px 450px;
+        margin-bottom: 10%;
+    }
